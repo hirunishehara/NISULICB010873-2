@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Details.css">
+  <title>Enter Your Details</Details>
+  </title>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="BUY.html">Tickets</a></li>
+      <li><span class="separator">></span></li>
+      <li><a href="Details.html">Details</a></li>
+      <li><span class="separator">></span></li>
+      <li><a href="Card.html">Payments</a></li>
+      <li><span class="separator">></span></li>
+      <li><a href="Confirm.html">Confirmation</a></li>
+    </ul>
+  </nav>
+  <div class="Home button">
+    <button><a href="Hikk.html" class="purchase-link">Home</a></button>
+  </div>
+  <div class="n">
+    <h1>Buy Tickets</h1>
+  </div>
+  <div class="container">
+    <form>
+      <h2>Enter your details</h2>
+      <label for="fullName">Full Name*</label>
+      <input type="text" id="name" required>
+
+      <span class="error-message" id="fullNameError"></span>
+
+      <label for="email">Email*</label>
+      <input type="email" id="email" required>
+      <span class="error-message" id="emailError"></span>
+
+      <label for="confirmEmail">Confirm Email*</label>
+      <input type="email" id="confirmEmail" required>
+      <span class="error-message" id="confirmEmailError"></span>
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender">
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <span class="error-message" id="genderError"></span>
+
+      <label for="Telephone Number">Telephone :</label><br>
+      <input type="tel" id="number">
+      <span class="error-message" id="phoneError"></span>
+      <button type="button" onclick="finishForm()">Finish</button>
+      <button type="button" onclick="submitForm()">Submit</button>
+
+
+    </form>
+    <p id="errorMessage"></p>
+  </div>
+
+  </div>
+
+  </form>
+  <div class="summary-table">
+    <h2></h2>
+    <table id="summary-table" border="1">
+      
+      <tr>
+        <td>Date</td>
+        <td id="summary-date">-</td>
+      </tr>
+      <tr>
+        <td>Time</td>
+        <td id="summary-time">-</td>
+      </tr>
+      <tr>
+        <td>Duration</td>
+        <td id="summary-duration">-</td>
+      </tr>
+      <tr>
+        <td>Tickets</td>
+        <td id="summary-tickets">-</td>
+      </tr>
+      <tr>
+        <td>Total Payable</td>
+        <td id="summary-total">-</td>
+      </tr>
+    </table>
+  </div>
+  <div class="C button">
+    <button><a href="Card.html" class="purchase-link">Continue with Purchase</a></button>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="international-telephone-input.js"></script>
+  <script src="script1.js"></script>
+
+</body>
+
+</html>

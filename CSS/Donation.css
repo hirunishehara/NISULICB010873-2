@@ -1,0 +1,284 @@
+
+     
+     /* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+  
+  }
+  .body{
+    .body {
+      background-image: url('Images/bg.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+     position:relative;
+    min-height: 100hv;
+  }
+  }
+ /* Header styles */
+ header {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+  
+  nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav .logo{
+  width: 60px;
+  height: auto;
+  position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: bolder;
+    
+  }
+  
+  nav ul li a{
+    text-decoration:none;
+    color: black;
+    font-size: 17px;
+  }
+  
+  .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  li:hover ul {
+    display: block;
+  }
+  
+  li ul li {
+    display: block;
+  }
+  
+  li ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  li ul li a:hover {
+    background-color: #f5f5f5;
+  } 
+
+.donation {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+ margin-top: 200px;
+
+}
+.donation img
+        {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+.donation p{
+color: #fff;
+}
+
+.donation1 {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+ margin-top: -220px;
+ margin-left: 500px;
+}
+.donation1 img
+        {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+.donation1 p{
+color: #fff;
+}
+
+.donation2 {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+ margin-top: -220px;
+ margin-left: 1000px;
+
+}
+.donation2 img
+        {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+.donation2 p{
+color: #fff;
+}
+
+.donation3 {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+ margin-top: 200px;
+
+}
+.donation3 img
+        {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+.donation3 p{
+color: #fff;
+}
+
+.donation4 {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+ margin-top: -229px;
+ margin-left: 500px;
+
+}
+.donation4 img
+        {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+.donation4 p{
+color: #fff;
+}
+
+.donation5 {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+ margin-top: -229px;
+ margin-left: 1000px;
+
+}
+.donation5 img
+        {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+.donation5 p{
+color: #fff;
+}
+footer {
+    background-color: #103858;;
+    padding: 20px;
+    text-align: center;
+
+    margin-top: 250px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: infinite;
+    color: white;
+    font-weight: bolder;
+  }
+
+  

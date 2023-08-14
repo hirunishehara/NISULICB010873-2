@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    color: #ffffff;
+    font-size: 10px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/B3.jpeg);
+    background-position: center top;
+    background-size: cover;
+    position: fixed;
+ 
+
+}
+
+nav {
+    background-color: #11462a;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #f39c12;
+}
+
+.separator {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cover-page h1 {
+    font-size: 32px;
+    width: 100%;
+    height: -40px;
+    position: relative;
+ left: -140px;
+ top: -46px;
+    line-height: 65px; 
+    text-align: center;
+    padding: 40px;
+    color: #183002;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #116012;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.calendar-container {
+    margin-top: 10px;
+}
+.C button:hover {
+    background-color: #0056b3;
+  }
+
+.purchase-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change font color */
+}
+
+.booking-form {
+    display: inline-block;
+    text-align: left;
+   top: -90px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    background-color:  rgb(5, 62, 65);
+    margin-top: 20px;
+    position: relative;
+    right: -100px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   
+}
+
+#total {
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(217, 222, 82);
+    font-size: 20px;
+
+}
+
+.peak {
+    color: red;
+}
+
+/* Additional CSS styles for the form */
+.tickets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.tickets-item {
+    display: flex;
+    align-items: center;
+}
+
+.minus-btn,
+.plus-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    border: none;
+    background-color: #116012;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus-btn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.plus-btn {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.minus-btn:hover,
+.plus-btn:hover {
+    background-color: #116012;
+}
+.C button{
+  position: relative;
+  right: -480px;
+  top: -80px;
+  size: 130%;
+  padding: 15px 32px;
+
+  background-color: #6dac6f;
+
+
+  
+}
+.summary-table{
+    position: absolute;
+    top: 310px;
+    left:1190px;
+    padding: 5px;
+   font-size: 16px;
+color: #000000;
+       
+}
+
+footer {
+    background-color: #11462a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 735px;
+    font-size: 14px;
+    position: fixed;
+width: 1420px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+ 
+}
+.Home button{
+    position: relative;
+    left: 20px;
+    top: -64px;
+    background-color: #f39c12;
+}
